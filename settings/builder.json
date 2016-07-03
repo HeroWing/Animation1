@@ -1,0 +1,13 @@
+{
+  "excludeScenes": [],
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.Animation2(1)",
+  "startScene": "b4a853af-a2e7-4e37-9c80-c07ea602da05",
+  "title": "Animation2(1)",
+  "webOrientation": "auto"
+}
