@@ -812,7 +812,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 1,
     "playOnLoad": true,
-    "_autoRemoveOnFinish": false,
+    "_autoRemoveOnFinish": true,
     "_totalParticles": 210,
     "_duration": -1,
     "_emissionRate": 198.6191241842429,
