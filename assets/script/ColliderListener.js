@@ -20,15 +20,15 @@ cc.Class({
     
                 
     onCollisionEnter: function (other) {
-        console.log('onCollisionEnter');
+        //console.log('onCollisionEnter');
     },
     
     onCollisionStay: function (other) {
-        console.log('on collision stay');
+        //console.log('on collision stay');
     },
     
     onCollisionExit: function () {
-       console.log('onCollisionExit');
+       //console.log('onCollisionExit');
     },
 
     // called every frame, uncomment this function to activate update callback

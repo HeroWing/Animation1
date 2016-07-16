@@ -1,5 +1,5 @@
 cc.Class({
-    'extends': cc.Component,
+    "extends": cc.Component,
 
     properties: {
         // foo: {
@@ -19,15 +19,15 @@ cc.Class({
     },
 
     onCollisionEnter: function onCollisionEnter(other) {
-        console.log('onCollisionEnter');
+        //console.log('onCollisionEnter');
     },
 
     onCollisionStay: function onCollisionStay(other) {
-        console.log('on collision stay');
+        //console.log('on collision stay');
     },
 
     onCollisionExit: function onCollisionExit() {
-        console.log('onCollisionExit');
+        //console.log('onCollisionExit');
     }
 
 });

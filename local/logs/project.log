@@ -86,3 +86,398 @@
 2016-07-16T08:33:32.664Z - normal: Compiled successfully
 2016-07-16T08:38:45.499Z - normal: Compiled successfully
 2016-07-16T08:38:50.247Z - normal: Compiled successfully
+2016-07-16T09:43:30.577Z - normal: Compiled successfully
+2016-07-16T09:46:47.990Z - normal: Compiled successfully
+2016-07-16T09:52:00.633Z - normal: Compiled successfully
+2016-07-16T09:52:25.931Z - normal: Compiled successfully
+2016-07-16T09:52:30.300Z - normal: Compiled successfully
+2016-07-16T09:53:00.433Z - normal: Compiled successfully
+2016-07-16T09:53:31.225Z - normal: Compiled successfully
+2016-07-16T09:54:09.028Z - normal: Compiled successfully
+2016-07-16T09:54:28.313Z - normal: Compiled successfully
+2016-07-16T09:55:02.938Z - failed: [db-task][update] failed!
+2016-07-16T09:55:02.940Z - error: Failed to update asset db://assets/script/myHero.js, messages: SyntaxError: unknown: Unexpected token (40:19)
+    },
+    
+    fire: function(var loc){
+     var scene = cc.director.getScene();  
+     var touchLoc = loc;
+     var bullet = cc.instantiate(this.bullet);
+    at Parser.pp.raise (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\location.js:24:13)
+    at Parser.pp.unexpected (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:82:8)
+    at Parser.pp.parseBindingAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\lval.js:128:12)
+    at Parser.pp.parseMaybeDefault (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\lval.js:163:23)
+    at Parser.pp.parseBindingList (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\lval.js:146:23)
+    at Parser.pp.parseFunctionParams (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\statement.js:530:22)
+    at Parser.parseFunctionParams (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\plugins\flow.js:936:13)
+    at Parser.pp.parseFunction (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\statement.js:523:8)
+    at Parser.pp.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:397:19)
+    at Parser.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\plugins\jsx\index.js:412:22)
+    at s.AssetDB.error (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\utils.js:1:2582)
+    at Object.callback (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\core\ipc.js:1:4154)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:906:35
+    at _arrayEach (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:85:13)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:898:17
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at s.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\index.js:1:1393)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\tasks.js:1:17718
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:52:16
+2016-07-16T09:56:34.669Z - failed: [db-task][update] failed!
+2016-07-16T09:56:34.670Z - error: Failed to update asset db://assets/script/myHero.js, messages: SyntaxError: unknown: Unexpected token (40:19)
+    },
+    
+    fire: function(var loc){
+     var scene = cc.director.getScene();  
+     var touchLoc = loc;
+     var bullet = cc.instantiate(this.bullet);
+    at Parser.pp.raise (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\location.js:24:13)
+    at Parser.pp.unexpected (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:82:8)
+    at Parser.pp.parseBindingAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\lval.js:128:12)
+    at Parser.pp.parseMaybeDefault (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\lval.js:163:23)
+    at Parser.pp.parseBindingList (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\lval.js:146:23)
+    at Parser.pp.parseFunctionParams (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\statement.js:530:22)
+    at Parser.parseFunctionParams (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\plugins\flow.js:936:13)
+    at Parser.pp.parseFunction (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\statement.js:523:8)
+    at Parser.pp.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:397:19)
+    at Parser.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\plugins\jsx\index.js:412:22)
+    at s.AssetDB.error (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\utils.js:1:2582)
+    at Object.callback (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\core\ipc.js:1:4154)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:906:35
+    at _arrayEach (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:85:13)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:898:17
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at s.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\index.js:1:1393)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\tasks.js:1:17718
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:52:16
+2016-07-16T09:57:44.638Z - normal: Compiled successfully
+2016-07-16T09:58:53.947Z - failed: [db-task][update] failed!
+2016-07-16T09:58:53.948Z - error: Failed to update asset db://assets/script/myHero.js, messages: SyntaxError: unknown: Unexpected token (40:21)
+    },
+    
+    fire: function(cc.v2 loc){
+     var scene = cc.director.getScene();  
+     var touchLoc = loc;
+     var bullet = cc.instantiate(this.bullet);
+    at Parser.pp.raise (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\location.js:24:13)
+    at Parser.pp.unexpected (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:82:8)
+    at Parser.pp.expect (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:76:33)
+    at Parser.pp.parseBindingList (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\lval.js:136:40)
+    at Parser.pp.parseFunctionParams (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\statement.js:530:22)
+    at Parser.parseFunctionParams (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\plugins\flow.js:936:13)
+    at Parser.pp.parseFunction (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\statement.js:523:8)
+    at Parser.pp.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:397:19)
+    at Parser.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\plugins\jsx\index.js:412:22)
+    at Parser.pp.parseExprSubscripts (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:236:19)
+    at s.AssetDB.error (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\utils.js:1:2582)
+    at Object.callback (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\core\ipc.js:1:4154)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:906:35
+    at _arrayEach (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:85:13)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:898:17
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at s.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\index.js:1:1393)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\tasks.js:1:17718
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:52:16
+2016-07-16T09:59:26.452Z - normal: Compiled successfully
+2016-07-16T10:01:59.532Z - normal: Compiled successfully
+2016-07-16T10:07:12.535Z - normal: Compiled successfully
+2016-07-16T10:10:10.807Z - normal: Compiled successfully
+2016-07-16T10:10:14.901Z - normal: Compiled successfully
+2016-07-16T10:10:33.225Z - normal: Compiled successfully
+2016-07-16T10:14:13.044Z - normal: Compiled successfully
+2016-07-16T10:14:39.695Z - normal: Compiled successfully
+2016-07-16T10:14:41.751Z - error: TypeError: Cannot read property 'name' of undefined
+    at Object.callback (app://editor/page/ui/node/node.js:1:2912)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:394
+2016-07-16T10:16:08.719Z - normal: Compiled successfully
+2016-07-16T10:17:34.083Z - normal: Compiled successfully
+2016-07-16T10:17:41.518Z - normal: Compiled successfully
+2016-07-16T10:18:48.029Z - normal: Compiled successfully
+2016-07-16T10:21:29.928Z - normal: Compiled successfully
+2016-07-16T10:24:57.252Z - normal: Compiled successfully
+2016-07-16T10:25:40.605Z - normal: Compiled successfully
+2016-07-16T10:33:59.632Z - normal: Compiled successfully
+2016-07-16T10:34:35.261Z - failed: [db-task][update] failed!
+2016-07-16T10:34:35.263Z - error: Failed to update asset db://assets/script/bullet.js, messages: SyntaxError: unknown: Unexpected token (6:8)
+    properties: {
+        speed: 100
+        hero: 
+    },
+
+    // use this for initialization
+    at Parser.pp.raise (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\location.js:24:13)
+    at Parser.pp.unexpected (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:82:8)
+    at Parser.pp.expect (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:76:33)
+    at Parser.pp.parseObj (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:596:12)
+    at Parser.pp.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:392:19)
+    at Parser.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\plugins\jsx\index.js:412:22)
+    at Parser.pp.parseExprSubscripts (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:236:19)
+    at Parser.pp.parseMaybeUnary (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:217:19)
+    at Parser.pp.parseExprOps (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:163:19)
+    at Parser.pp.parseMaybeConditional (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:145:19)
+    at s.AssetDB.error (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\utils.js:1:2582)
+    at Object.callback (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\core\ipc.js:1:4154)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:906:35
+    at _arrayEach (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:85:13)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:898:17
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at s.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\index.js:1:1393)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\tasks.js:1:17718
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:52:16
+2016-07-16T10:34:50.567Z - failed: [db-task][update] failed!
+2016-07-16T10:34:50.568Z - error: Failed to update asset db://assets/script/bullet.js, messages: SyntaxError: unknown: Unexpected token (6:8)
+    properties: {
+        speed: 100
+        hero: {
+            default: null,
+            type: cc.Node,
+        },
+    at Parser.pp.raise (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\location.js:24:13)
+    at Parser.pp.unexpected (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:82:8)
+    at Parser.pp.expect (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:76:33)
+    at Parser.pp.parseObj (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:596:12)
+    at Parser.pp.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:392:19)
+    at Parser.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\plugins\jsx\index.js:412:22)
+    at Parser.pp.parseExprSubscripts (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:236:19)
+    at Parser.pp.parseMaybeUnary (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:217:19)
+    at Parser.pp.parseExprOps (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:163:19)
+    at Parser.pp.parseMaybeConditional (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:145:19)
+    at s.AssetDB.error (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\utils.js:1:2582)
+    at Object.callback (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\core\ipc.js:1:4154)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:906:35
+    at _arrayEach (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:85:13)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:898:17
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at s.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\index.js:1:1393)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\tasks.js:1:17718
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:52:16
+2016-07-16T10:35:12.524Z - normal: Compiled successfully
+2016-07-16T10:35:44.231Z - normal: Compiled successfully
+2016-07-16T10:36:21.142Z - failed: [db-task][update] failed!
+2016-07-16T10:36:21.144Z - error: Failed to update asset db://assets/script/bullet.js, messages: SyntaxError: unknown: Unexpected token (26:1)
+        this.node.y += this.speed * dt;
+    },
+});
+
+    at Parser.pp.raise (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\location.js:24:13)
+    at Parser.pp.unexpected (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:82:8)
+    at Parser.pp.expect (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:76:33)
+    at Parser.pp.parseObj (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:596:12)
+    at Parser.pp.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:392:19)
+    at Parser.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\plugins\jsx\index.js:412:22)
+    at Parser.pp.parseExprSubscripts (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:236:19)
+    at Parser.pp.parseMaybeUnary (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:217:19)
+    at Parser.pp.parseExprOps (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:163:19)
+    at Parser.pp.parseMaybeConditional (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:145:19)
+    at s.AssetDB.error (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\utils.js:1:2582)
+    at Object.callback (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\core\ipc.js:1:4154)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:906:35
+    at _arrayEach (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:85:13)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:898:17
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at s.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\index.js:1:1393)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\tasks.js:1:17718
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:52:16
+2016-07-16T10:36:56.836Z - normal: Compiled successfully
+2016-07-16T10:37:18.627Z - normal: Compiled successfully
+2016-07-16T10:37:41.989Z - normal: Compiled successfully
+2016-07-16T10:43:07.771Z - normal: Compiled successfully
+2016-07-16T10:45:44.740Z - normal: Compiled successfully
+2016-07-16T10:46:06.647Z - normal: Compiled successfully
+2016-07-16T10:48:21.488Z - normal: Compiled successfully
+2016-07-16T10:48:55.536Z - normal: Compiled successfully
+2016-07-16T10:49:27.691Z - failed: [db-task][update] failed!
+2016-07-16T10:49:27.692Z - error: Failed to update asset db://assets/script/myHero.js, messages: SyntaxError: unknown: Unexpected token (52:5)
+    refire: function(){
+        
+    };
+    
+    onCollisionEnter: function (other, self) {
+        //console.log('onCollisionEnter ' + self.tag);
+    at Parser.pp.raise (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\location.js:24:13)
+    at Parser.pp.unexpected (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:82:8)
+    at Parser.pp.expect (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:76:33)
+    at Parser.pp.parseObj (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:596:12)
+    at Parser.pp.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:392:19)
+    at Parser.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\plugins\jsx\index.js:412:22)
+    at Parser.pp.parseExprSubscripts (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:236:19)
+    at Parser.pp.parseMaybeUnary (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:217:19)
+    at Parser.pp.parseExprOps (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:163:19)
+    at Parser.pp.parseMaybeConditional (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:145:19)
+    at s.AssetDB.error (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\utils.js:1:2582)
+    at Object.callback (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\core\ipc.js:1:4154)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:906:35
+    at _arrayEach (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:85:13)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:898:17
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at s.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\index.js:1:1393)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\tasks.js:1:17718
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:52:16
+2016-07-16T10:50:04.865Z - failed: [db-task][update] failed!
+2016-07-16T10:50:04.866Z - error: Failed to update asset db://assets/script/myHero.js, messages: SyntaxError: unknown: Unexpected token (53:5)
+        var stopLoc = cc.v2(this.node.x, this.node.y);
+        fire(stopLoc);
+    };
+    
+    onCollisionEnter: function (other, self) {
+        //console.log('onCollisionEnter ' + self.tag);
+    at Parser.pp.raise (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\location.js:24:13)
+    at Parser.pp.unexpected (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:82:8)
+    at Parser.pp.expect (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:76:33)
+    at Parser.pp.parseObj (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:596:12)
+    at Parser.pp.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:392:19)
+    at Parser.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\plugins\jsx\index.js:412:22)
+    at Parser.pp.parseExprSubscripts (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:236:19)
+    at Parser.pp.parseMaybeUnary (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:217:19)
+    at Parser.pp.parseExprOps (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:163:19)
+    at Parser.pp.parseMaybeConditional (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:145:19)
+    at s.AssetDB.error (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\utils.js:1:2582)
+    at Object.callback (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\core\ipc.js:1:4154)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:906:35
+    at _arrayEach (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:85:13)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:898:17
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at s.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\index.js:1:1393)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\tasks.js:1:17718
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:52:16
+2016-07-16T10:52:37.260Z - normal: Compiled successfully
+2016-07-16T10:53:00.510Z - failed: [db-task][update] failed!
+2016-07-16T10:53:00.511Z - error: Failed to update asset db://assets/script/bullet.js, messages: SyntaxError: unknown: Unexpected token (7:12)
+        speed: 100,
+        
+        hero;
+    },
+        
+
+    at Parser.pp.raise (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\location.js:24:13)
+    at Parser.pp.unexpected (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:82:8)
+    at Parser.pp.expect (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:76:33)
+    at Parser.pp.parseObj (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:596:12)
+    at Parser.pp.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:392:19)
+    at Parser.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\plugins\jsx\index.js:412:22)
+    at Parser.pp.parseExprSubscripts (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:236:19)
+    at Parser.pp.parseMaybeUnary (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:217:19)
+    at Parser.pp.parseExprOps (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:163:19)
+    at Parser.pp.parseMaybeConditional (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:145:19)
+    at s.AssetDB.error (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\utils.js:1:2582)
+    at Object.callback (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\core\ipc.js:1:4154)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:906:35
+    at _arrayEach (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:85:13)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:898:17
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at s.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\index.js:1:1393)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\tasks.js:1:17718
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:52:16
+2016-07-16T10:53:07.788Z - normal: Compiled successfully
+2016-07-16T10:53:08.078Z - error: ReferenceError: hero is not defined
+    at Object.require.bullet: "hero," (assets/script/bullet.js:7:8)
+    at s (../../../../../AppData/Local/CocosCreator/app-1.1.1/resources/app.asar/node_modules/browser-pack/_prelude.js:1)
+    at e (../../../../../AppData/Local/CocosCreator/app-1.1.1/resources/app.asar/node_modules/browser-pack/_prelude.js:1)
+    at file:///C:/Users/Leon/Documents/GitHub/Animation1/library/bundle.project.js?057:1:451
+2016-07-16T10:53:47.762Z - normal: Compiled successfully
+2016-07-16T10:54:01.875Z - failed: [db-task][update] failed!
+2016-07-16T10:54:01.875Z - error: Failed to update asset db://assets/script/bullet.js, messages: SyntaxError: unknown: Unexpected token (6:14)
+    properties: {
+        speed: 100,
+        hero: var,
+    },
+        
+
+    at Parser.pp.raise (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\location.js:24:13)
+    at Parser.pp.unexpected (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:82:8)
+    at Parser.pp.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:425:12)
+    at Parser.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\plugins\jsx\index.js:412:22)
+    at Parser.pp.parseExprSubscripts (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:236:19)
+    at Parser.pp.parseMaybeUnary (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:217:19)
+    at Parser.pp.parseExprOps (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:163:19)
+    at Parser.pp.parseMaybeConditional (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:145:19)
+    at Parser.pp.parseMaybeAssign (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:112:19)
+    at Parser.pp.parseObjPropValue (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:652:99)
+    at s.AssetDB.error (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\utils.js:1:2582)
+    at Object.callback (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\core\ipc.js:1:4154)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:906:35
+    at _arrayEach (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:85:13)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:898:17
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at s.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\index.js:1:1393)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\tasks.js:1:17718
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:52:16
+2016-07-16T10:54:45.042Z - normal: Compiled successfully
+2016-07-16T10:55:17.651Z - normal: Compiled successfully
+2016-07-16T10:55:33.714Z - failed: [db-task][update] failed!
+2016-07-16T10:55:33.715Z - error: Failed to update asset db://assets/script/myHero.js, messages: SyntaxError: unknown: Unexpected token (53:5)
+        var stopLoc = cc.v2(this.node.x, this.node.y);
+        this.fire(stopLoc);
+    };
+    
+    onCollisionEnter: function (other, self) {
+        //console.log('onCollisionEnter ' + self.tag);
+    at Parser.pp.raise (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\location.js:24:13)
+    at Parser.pp.unexpected (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:82:8)
+    at Parser.pp.expect (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:76:33)
+    at Parser.pp.parseObj (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:596:12)
+    at Parser.pp.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:392:19)
+    at Parser.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\plugins\jsx\index.js:412:22)
+    at Parser.pp.parseExprSubscripts (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:236:19)
+    at Parser.pp.parseMaybeUnary (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:217:19)
+    at Parser.pp.parseExprOps (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:163:19)
+    at Parser.pp.parseMaybeConditional (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:145:19)
+    at s.AssetDB.error (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\utils.js:1:2582)
+    at Object.callback (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\core\ipc.js:1:4154)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:906:35
+    at _arrayEach (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:85:13)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:898:17
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at s.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\index.js:1:1393)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\tasks.js:1:17718
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:52:16
+2016-07-16T10:56:08.857Z - normal: Compiled successfully
+2016-07-16T10:56:14.464Z - normal: Compiled successfully
+2016-07-16T10:56:35.051Z - normal: Compiled successfully
+2016-07-16T11:02:01.984Z - normal: Compiled successfully
+2016-07-16T11:02:08.737Z - normal: Compiled successfully
+2016-07-16T11:02:36.701Z - normal: Compiled successfully
+2016-07-16T11:04:53.779Z - failed: [db-task][update] failed!
+2016-07-16T11:04:53.780Z - error: Failed to update asset db://assets/script/bullet.js, messages: SyntaxError: unknown: Unexpected token (22:44)
+        if (other.tag == 1 || other.tag == 2 || other.tag == 3 || other.tag == 4){
+           this.hero
+           this.hero.getComponent('myHero')..refire();
+           this.node.destroy();
+           
+        }
+    at Parser.pp.raise (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\location.js:24:13)
+    at Parser.pp.unexpected (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:82:8)
+    at Parser.pp.parseIdent (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:818:10)
+    at Parser.pp.parseSubscripts (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:254:28)
+    at Parser.pp.parseExprSubscripts (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:240:17)
+    at Parser.pp.parseMaybeUnary (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:217:19)
+    at Parser.pp.parseExprOps (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:163:19)
+    at Parser.pp.parseMaybeConditional (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:145:19)
+    at Parser.pp.parseMaybeAssign (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:112:19)
+    at Parser.pp.parseExpression (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:79:19)
+    at s.AssetDB.error (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\utils.js:1:2582)
+    at Object.callback (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\core\ipc.js:1:4154)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:906:35
+    at _arrayEach (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:85:13)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:898:17
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at s.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\index.js:1:1393)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\tasks.js:1:17718
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:52:16
+2016-07-16T11:05:07.858Z - normal: Compiled successfully
+2016-07-16T11:05:10.317Z - error: TypeError: Cannot read property 'name' of undefined
+    at Object.callback (app://editor/page/ui/node/node.js:1:2912)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:394
+2016-07-16T11:07:02.599Z - normal: Compiled successfully
+2016-07-16T11:07:35.120Z - normal: Compiled successfully
+2016-07-16T11:08:58.284Z - normal: Compiled successfully
+2016-07-16T11:09:13.158Z - normal: Compiled successfully
+2016-07-16T11:09:34.244Z - normal: Compiled successfully
+2016-07-16T11:09:57.264Z - normal: Compiled successfully
+2016-07-16T11:10:18.835Z - normal: Compiled successfully
+2016-07-16T11:10:22.207Z - normal: Compiled successfully
+2016-07-16T11:10:25.236Z - normal: Compiled successfully
+2016-07-16T11:10:29.768Z - normal: Compiled successfully
+2016-07-16T11:11:10.988Z - normal: Compiled successfully
+2016-07-16T11:14:46.979Z - normal: Compiled successfully
+2016-07-16T11:15:00.970Z - normal: Compiled successfully
+2016-07-16T11:15:42.713Z - normal: Compiled successfully

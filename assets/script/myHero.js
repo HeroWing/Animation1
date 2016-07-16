@@ -9,6 +9,8 @@ cc.Class({
         
         collision : false,
         
+        reachedTarget : false,
+        
         bullet: {
             default: null,
             type: cc.Node
@@ -29,42 +31,58 @@ cc.Class({
      if (!this.collision)
           this.node.runAction( cc.moveTo(1,cc.p(x, y)));
           
-          
-     var scene = cc.director.getScene();
-     var touchLoc = this.loc;
-     var bullet = cc.instantiate(this.bullet);
-     bullet.position = touchLoc;
-     bullet.active = true;
-     scene.addChild(bullet);
+    //this.fire(this.loc);
+
    },
 
     onLoad: function () {
          cc.director.getCollisionManager().enabled = true;  
-         
-
     },
     
+    fire: function(loc){
+         var scene = cc.director.getScene();  
+         var touchLoc = loc;
+         var bullet = cc.instantiate(this.bullet);
+         //bullet.hero = this;
+         bullet.position = touchLoc;
+         bullet.active = true;
+         scene.addChild(bullet);
+    },
+    
+    refire: function(){
+        if (this.reachedTarget){
+          var stopLoc = cc.v2(this.node.x, this.node.y);
+          this.fire(stopLoc);
+        }
+    },
     
     onCollisionEnter: function (other, self) {
-        this.collision = true;
-        this.node.stopAllActions();
-
-
-  
+        //console.log('onCollisionEnter ' + self.tag);
+        
+        if (self.tag == 11){
+          this.collision = true;
+          this.node.stopAllActions();
+        } else if ((self.tag == 22 && (other.tag == 1 || other.tag == 2 || other.tag == 3))){
+            this.reachedTarget = true;
+            var stopLoc = cc.v2(this.node.x, this.node.y);
+            this.fire(stopLoc);
+        }
     },
     
     onCollisionStay: function (other, self) {
-        this.collision = true;
         
-        var otherAabb = other.world.aabb;
-        var selfAabb = self.world.aabb.clone();
-        var preAabb = self.world.preAabb;
+        if (self.tag == 1){
+          this.collision = true;
         
-        //selfAabb.x = preAabb.x;
-        //selfAabb.y = preAabb.y;
+          var otherAabb = other.world.aabb;
+          var selfAabb = self.world.aabb.clone();
+          var preAabb = self.world.preAabb;
         
-        //selfAabb.x = self.world.aabb.x;
-        if (cc.Intersection.rectRect(selfAabb, otherAabb)) {
+          //selfAabb.x = preAabb.x;
+          //selfAabb.y = preAabb.y;
+        
+          //selfAabb.x = self.world.aabb.x;
+          if (cc.Intersection.rectRect(selfAabb, otherAabb)) {
             if (selfAabb.xMax > otherAabb.xMax) {
                 this.node.x += 1;
             }
@@ -72,10 +90,10 @@ cc.Class({
                 this.node.x -= 1;
             }
 
-        }
+          }
 
-        selfAabb.y = self.world.aabb.y;
-        if (cc.Intersection.rectRect(selfAabb, otherAabb)) {
+          selfAabb.y = self.world.aabb.y;
+          if (cc.Intersection.rectRect(selfAabb, otherAabb)) {
             if (selfAabb.yMax > otherAabb.yMax) {
                 this.node.y += 1;
 
@@ -84,13 +102,20 @@ cc.Class({
                 this.node.y -= 1;
             }
 
-        }    
-        //this.node.y -= 1;
-        //this.node.stopAllActions();
+          }    
+          //this.node.y -= 1;
+          //this.node.stopAllActions();
+        }else if ((self.tag == 22 && (other.tag == 1 || other.tag == 2 || other.tag == 3))){
+          this.reachedTarget = true;
+      }
     },
     
-    onCollisionExit: function () {
+    onCollisionExit: function (other, self) {
+      if (self.tag == 1){
        this.collision = false;
+      } else if ((self.tag == 22 && (other.tag == 1 || other.tag == 2 || other.tag == 3))){
+        this.reachedTarget = false;
+      }
     },
 
     
