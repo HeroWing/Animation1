@@ -1,46 +1,88 @@
-2016-07-03T08:03:04.432Z - normal: Load ~/.CocosCreator/settings.json
-2016-07-03T08:03:04.448Z - normal: checking language setting...
-2016-07-03T08:03:04.449Z - normal: Language: zh
-2016-07-03T08:03:05.697Z - success: protocol editor-framework registerred
-2016-07-03T08:03:05.697Z - success: protocol app registerred
-2016-07-03T08:03:05.697Z - success: protocol packages registerred
-2016-07-03T08:03:05.698Z - success: protocol unpack registerred
-2016-07-03T08:03:05.886Z - normal: connected!
-2016-07-03T08:03:05.889Z - normal: Check project C:\Users\Leon\Documents\GitHub\Animation1
-2016-07-03T08:03:05.897Z - normal: Initializing Cocos Creator Editor
-2016-07-03T08:03:06.779Z - normal: Initializing Cocos2d
-2016-07-03T08:03:07.292Z - normal: Initializing Asset Database
-2016-07-03T08:03:07.416Z - success: protocol uuid registerred
-2016-07-03T08:03:07.417Z - success: protocol uuid registerred
-2016-07-03T08:03:07.417Z - success: protocol thumbnail registerred
-2016-07-03T08:03:07.417Z - normal: Loading editor/builtin packages
-2016-07-03T08:03:07.826Z - success: assets loaded
-2016-07-03T08:03:07.831Z - success: builder loaded
-2016-07-03T08:03:07.842Z - success: hierarchy loaded
-2016-07-03T08:03:07.851Z - success: inspector loaded
-2016-07-03T08:03:07.854Z - success: keystore loaded
-2016-07-03T08:03:07.862Z - success: node-library loaded
-2016-07-03T08:03:07.868Z - success: preferences loaded
-2016-07-03T08:03:07.907Z - success: project-importer loaded
-2016-07-03T08:03:07.912Z - success: project-settings loaded
-2016-07-03T08:03:07.917Z - success: ui-kit loaded
-2016-07-03T08:03:07.921Z - success: ui-grid loaded
-2016-07-03T08:03:07.933Z - success: scene loaded
-2016-07-03T08:03:07.936Z - success: sprite-editor loaded
-2016-07-03T08:03:07.950Z - success: timeline loaded
-2016-07-03T08:03:07.953Z - success: ui-kit-extra loaded
-2016-07-03T08:03:07.954Z - normal: Loading builtin packages
-2016-07-03T08:03:07.960Z - success: asset-db-debugger loaded
-2016-07-03T08:03:07.964Z - success: code-editor loaded
-2016-07-03T08:03:07.965Z - success: color-picker loaded
-2016-07-03T08:03:07.980Z - success: console loaded
-2016-07-03T08:03:07.986Z - success: package-manager loaded
-2016-07-03T08:03:07.997Z - success: tester loaded
-2016-07-03T08:03:08.000Z - success: ui-tree loaded
-2016-07-03T08:03:08.097Z - normal: Initializing project C:\Users\Leon\Documents\GitHub\Animation1
-2016-07-03T08:03:08.105Z - normal: Loading packages
-2016-07-03T08:03:08.112Z - normal: Run Application
-2016-07-03T08:03:12.795Z - success: preview server running at http://localhost:7456
-2016-07-03T08:03:12.796Z - normal: Compiling scripts...
-2016-07-03T08:03:16.659Z - normal: Compiled successfully
-2016-07-03T08:03:25.378Z - normal: 1.1.1
+2016-07-16T08:00:09.892Z - normal: Load ~/.CocosCreator/settings.json
+2016-07-16T08:00:09.905Z - normal: checking language setting...
+2016-07-16T08:00:09.905Z - normal: Language: zh
+2016-07-16T08:00:11.047Z - success: protocol editor-framework registerred
+2016-07-16T08:00:11.047Z - success: protocol app registerred
+2016-07-16T08:00:11.047Z - success: protocol packages registerred
+2016-07-16T08:00:11.048Z - success: protocol unpack registerred
+2016-07-16T08:00:11.263Z - normal: connected!
+2016-07-16T08:00:11.266Z - normal: Check project C:\Users\Leon\Documents\GitHub\Animation1
+2016-07-16T08:00:11.271Z - normal: Initializing Cocos Creator Editor
+2016-07-16T08:00:11.710Z - normal: Initializing Cocos2d
+2016-07-16T08:00:11.945Z - normal: Initializing Asset Database
+2016-07-16T08:00:12.010Z - success: protocol uuid registerred
+2016-07-16T08:00:12.010Z - success: protocol uuid registerred
+2016-07-16T08:00:12.010Z - success: protocol thumbnail registerred
+2016-07-16T08:00:12.011Z - normal: Loading editor/builtin packages
+2016-07-16T08:00:12.270Z - success: assets loaded
+2016-07-16T08:00:12.274Z - success: builder loaded
+2016-07-16T08:00:12.283Z - success: hierarchy loaded
+2016-07-16T08:00:12.290Z - success: inspector loaded
+2016-07-16T08:00:12.292Z - success: keystore loaded
+2016-07-16T08:00:12.300Z - success: node-library loaded
+2016-07-16T08:00:12.305Z - success: preferences loaded
+2016-07-16T08:00:12.340Z - success: project-importer loaded
+2016-07-16T08:00:12.344Z - success: project-settings loaded
+2016-07-16T08:00:12.348Z - success: ui-kit loaded
+2016-07-16T08:00:12.354Z - success: ui-grid loaded
+2016-07-16T08:00:12.361Z - success: scene loaded
+2016-07-16T08:00:12.361Z - success: sprite-editor loaded
+2016-07-16T08:00:12.380Z - success: timeline loaded
+2016-07-16T08:00:12.382Z - success: ui-kit-extra loaded
+2016-07-16T08:00:12.383Z - normal: Loading builtin packages
+2016-07-16T08:00:12.388Z - success: asset-db-debugger loaded
+2016-07-16T08:00:12.391Z - success: code-editor loaded
+2016-07-16T08:00:12.392Z - success: color-picker loaded
+2016-07-16T08:00:12.401Z - success: console loaded
+2016-07-16T08:00:12.406Z - success: package-manager loaded
+2016-07-16T08:00:12.414Z - success: tester loaded
+2016-07-16T08:00:12.417Z - success: ui-tree loaded
+2016-07-16T08:00:12.491Z - normal: Initializing project C:\Users\Leon\Documents\GitHub\Animation1
+2016-07-16T08:00:12.496Z - normal: Loading packages
+2016-07-16T08:00:12.503Z - normal: Run Application
+2016-07-16T08:00:15.576Z - success: preview server running at http://localhost:7457
+2016-07-16T08:00:15.577Z - normal: Compiling scripts...
+2016-07-16T08:00:17.964Z - normal: Compiled successfully
+2016-07-16T08:00:22.972Z - normal: 1.1.1
+2016-07-16T08:02:08.627Z - normal: Compiled successfully
+2016-07-16T08:02:13.126Z - normal: Compiled successfully
+2016-07-16T08:02:32.540Z - normal: Compiled successfully
+2016-07-16T08:05:39.656Z - normal: Compiled successfully
+2016-07-16T08:07:55.993Z - normal: Compiled successfully
+2016-07-16T08:08:49.500Z - normal: Compiled successfully
+2016-07-16T08:08:49.548Z - error: TypeError: Cannot read property 'node' of null
+    at SVG.Element.SVG.invent.extend.parent (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\svg.js\dist\svg.js:1156:19)
+    at SVG.Element.SVG.invent.extend.doc (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\svg.js\dist\svg.js:1163:52)
+    at SVG.extend.filter (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\svg.filter.js\dist\svg.filter.js:130:22)
+    at e._createClass.value (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor\page\gizmos\elements\icon-gizmo.js:1:1651)
+    at e._createClass.value (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor\page\gizmos\elements\gizmo.js:1:1322)
+    at _updateGizmos (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor\page\scene-utils\engine-events.js:1:1198)
+    at Array.forEach (native)
+    at _Class.onPostUpdate (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor\page\scene-utils\engine-events.js:1:1376)
+    at EventListeners.invoke (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\engine\cocos2d\core\event\event-listeners.js:52:29)
+    at _doSendEvent (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\engine\cocos2d\core\event\event-target.js:96:34)
+    at _Class.JS.mixin.emit (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\engine\cocos2d\core\event\event-target.js:343:9)
+2016-07-16T08:08:49.576Z - error: TypeError: Cannot read property 'node' of null
+    at SVG.Element.SVG.invent.extend.parent (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\svg.js\dist\svg.js:1156:19)
+    at SVG.Element.SVG.invent.extend.doc (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\svg.js\dist\svg.js:1163:52)
+    at SVG.extend.filter (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\svg.filter.js\dist\svg.filter.js:130:22)
+    at e._createClass.value (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor\page\gizmos\elements\icon-gizmo.js:1:1651)
+    at e._createClass.value (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor\page\gizmos\elements\gizmo.js:1:1322)
+    at _updateGizmos (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor\page\scene-utils\engine-events.js:1:1198)
+    at Array.forEach (native)
+    at _Class.onPostUpdate (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor\page\scene-utils\engine-events.js:1:1376)
+    at EventListeners.invoke (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\engine\cocos2d\core\event\event-listeners.js:52:29)
+    at _doSendEvent (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\engine\cocos2d\core\event\event-target.js:96:34)
+    at _Class.JS.mixin.emit (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\engine\cocos2d\core\event\event-target.js:343:9)
+2016-07-16T08:09:15.210Z - normal: Compiled successfully
+2016-07-16T08:10:21.474Z - normal: Compiled successfully
+2016-07-16T08:12:46.404Z - normal: Compiled successfully
+2016-07-16T08:21:29.212Z - normal: Compiled successfully
+2016-07-16T08:21:51.025Z - normal: Compiled successfully
+2016-07-16T08:22:07.404Z - normal: Compiled successfully
+2016-07-16T08:31:32.197Z - normal: Compiled successfully
+2016-07-16T08:31:57.336Z - normal: Compiled successfully
+2016-07-16T08:33:16.855Z - normal: Compiled successfully
+2016-07-16T08:33:32.664Z - normal: Compiled successfully
+2016-07-16T08:38:45.499Z - normal: Compiled successfully
+2016-07-16T08:38:50.247Z - normal: Compiled successfully

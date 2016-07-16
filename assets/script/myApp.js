@@ -54,6 +54,8 @@ cc.Class({
             for(var item in customEvent){
                 console.log(item + ' ' + customEvent[item]);
             }
+            
+
         });
         //cc.repeatForever(this.autoChangeDir());
 //        this.schedule(function(){        this.dir++;

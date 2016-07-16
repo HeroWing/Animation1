@@ -9,6 +9,11 @@ cc.Class({
         
         collision : false,
         
+        bullet: {
+            default: null,
+            type: cc.Node
+        }
+        
     },
     
     changeDirection: function(dir){
@@ -23,6 +28,14 @@ cc.Class({
      //cc.moveTo(1,cc.p(x, y));
      if (!this.collision)
           this.node.runAction( cc.moveTo(1,cc.p(x, y)));
+          
+          
+     var scene = cc.director.getScene();
+     var touchLoc = this.loc;
+     var bullet = cc.instantiate(this.bullet);
+     bullet.position = touchLoc;
+     bullet.active = true;
+     scene.addChild(bullet);
    },
 
     onLoad: function () {

@@ -2,8 +2,8 @@
   "version": "1.1.1",
   "windows": {
     "main": {
-      "x": 363,
-      "y": 858,
+      "x": -8,
+      "y": -8,
       "width": 1936,
       "height": 1056,
       "layout": {
@@ -92,6 +92,18 @@
         "row": true,
         "type": "dock"
       }
+    },
+    "window-1468657917277": {
+      "x": 784,
+      "y": 73,
+      "width": 803,
+      "height": 917
+    },
+    "worker": {
+      "x": 760,
+      "y": 370,
+      "width": 400,
+      "height": 300
     }
   }
 }
