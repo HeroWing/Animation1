@@ -23,7 +23,7 @@ cc.Class({
         let self = this;
         
          
-    
+        //鼠标点击移动，同时改变人物朝向（待改进）
         self.node.on('mouseup', function(event){
         
            self.hero.getComponent('myHero').collision = false; 

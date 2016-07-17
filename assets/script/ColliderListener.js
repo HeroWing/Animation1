@@ -13,6 +13,8 @@ cc.Class({
         // ...
     },
 
+    //此脚本加载在大地图上,检测碰撞,暂时未作任何操作
+    
     // use this for initialization
     onLoad: function () {
         cc.director.getCollisionManager().enabled = true;   
