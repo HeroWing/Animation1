@@ -7,6 +7,7 @@ cc.Class({
             type: cc.Node,
         },
         
+        
         dir:0,
     },
 

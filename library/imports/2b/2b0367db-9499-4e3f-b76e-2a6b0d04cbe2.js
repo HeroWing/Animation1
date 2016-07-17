@@ -2,15 +2,10 @@ cc.Class({
     "extends": cc.Component,
 
     properties: {
-        // foo: {
-        //    default: null,
-        //    url: cc.Texture2D,  // optional, default is typeof default
-        //    serializable: true, // optional, default is true
-        //    visible: true,      // optional, default is true
-        //    displayName: 'Foo', // optional
-        //    readonly: false,    // optional, default is false
-        // },
-        // ...
+        lifeBar: {
+            type: cc.ProgressBar,
+            "default": null
+        }
     },
 
     //此脚本加载在大地图上,检测碰撞,暂时未作任何操作
@@ -20,15 +15,20 @@ cc.Class({
         cc.director.getCollisionManager().enabled = true;
     },
 
-    onCollisionEnter: function onCollisionEnter(other) {
+    onCollisionEnter: function onCollisionEnter(other, self) {
+
+        //got shot...
+        if (other.tag == 33 && this.lifeBar.progress >= 0) {
+            this.lifeBar.progress -= 0.08;
+        }
         //console.log('onCollisionEnter');
     },
 
-    onCollisionStay: function onCollisionStay(other) {
+    onCollisionStay: function onCollisionStay(other, self) {
         //console.log('on collision stay');
     },
 
-    onCollisionExit: function onCollisionExit() {
+    onCollisionExit: function onCollisionExit(other, self) {
         //console.log('onCollisionExit');
     }
 

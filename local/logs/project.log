@@ -57,3 +57,45 @@
 2016-07-17T04:54:26.287Z - normal: Compiled successfully
 2016-07-17T04:55:19.671Z - normal: Compiled successfully
 2016-07-17T04:55:42.364Z - normal: Compiled successfully
+2016-07-17T07:16:46.265Z - normal: Compiled successfully
+2016-07-17T07:20:35.528Z - normal: Compiled successfully
+2016-07-17T07:20:44.474Z - normal: Compiled successfully
+2016-07-17T07:20:47.244Z - normal: Compiled successfully
+2016-07-17T07:20:56.407Z - normal: Compiled successfully
+2016-07-17T07:22:02.399Z - normal: Compiled successfully
+2016-07-17T07:22:06.565Z - normal: Compiled successfully
+2016-07-17T07:22:06.705Z - error: TypeError: Cannot read property 'node' of null
+    at SVG.Element.SVG.invent.extend.parent (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\svg.js\dist\svg.js:1156:19)
+    at SVG.Element.SVG.invent.extend.doc (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\svg.js\dist\svg.js:1163:52)
+    at SVG.extend.filter (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\svg.filter.js\dist\svg.filter.js:130:22)
+    at e._createClass.value (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor\page\gizmos\elements\icon-gizmo.js:1:1651)
+    at e._createClass.value (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor\page\gizmos\elements\gizmo.js:1:1322)
+    at _updateGizmos (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor\page\scene-utils\engine-events.js:1:1198)
+    at Array.forEach (native)
+    at _Class.onPostUpdate (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor\page\scene-utils\engine-events.js:1:1376)
+    at EventListeners.invoke (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\engine\cocos2d\core\event\event-listeners.js:52:29)
+    at _doSendEvent (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\engine\cocos2d\core\event\event-target.js:96:34)
+2016-07-17T07:22:46.923Z - normal: Compiled successfully
+2016-07-17T07:22:55.790Z - normal: Compiled successfully
+2016-07-17T07:22:58.643Z - error: TypeError: Cannot read property 'name' of undefined
+    at app://editor/page/ui/node/node.js:1:2912
+    at EventEmitter.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:5204)
+    at emitThree (events.js:97:13)
+    at EventEmitter.emit (events.js:175:7)
+2016-07-17T07:25:15.576Z - normal: Compiled successfully
+2016-07-17T07:25:18.363Z - error: TypeError: Cannot read property 'name' of undefined
+    at app://editor/page/ui/node/node.js:1:2912
+    at EventEmitter.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:5204)
+    at emitThree (events.js:97:13)
+    at EventEmitter.emit (events.js:175:7)
+2016-07-17T07:26:02.409Z - normal: Compiled successfully
+2016-07-17T07:26:04.796Z - error: TypeError: Cannot read property 'name' of undefined
+    at app://editor/page/ui/node/node.js:1:2912
+    at EventEmitter.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:5204)
+    at emitThree (events.js:97:13)
+    at EventEmitter.emit (events.js:175:7)
+2016-07-17T12:35:32.232Z - error: Window "main" unresponsive: [object Object]
+    at BrowserWindow.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor-framework\lib\main\window.js:1:3113)
+    at emitOne (events.js:77:13)
+    at BrowserWindow.emit (events.js:169:7)
+2016-07-17T12:35:32.815Z - info: shutdown preview server
