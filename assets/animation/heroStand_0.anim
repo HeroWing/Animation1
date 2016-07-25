@@ -3,7 +3,7 @@
   "_name": "heroStand_0",
   "_objFlags": 0,
   "_rawFiles": null,
-  "_duration": 1,
+  "_duration": 1.25,
   "sample": 4,
   "speed": 1,
   "wrapMode": 2,
@@ -45,5 +45,11 @@
       }
     }
   },
-  "events": []
+  "events": [
+    {
+      "frame": 1,
+      "func": "OnAnimitionEnd",
+      "params": []
+    }
+  ]
 }

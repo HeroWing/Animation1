@@ -17,7 +17,7 @@
                   "hierarchy"
                 ],
                 "type": "panel",
-                "width": 485
+                "width": 423
               },
               {
                 "active": 0,
@@ -26,13 +26,13 @@
                   "assets"
                 ],
                 "type": "panel",
-                "width": 485
+                "width": 423
               }
             ],
             "height": 928,
             "row": false,
             "type": "dock",
-            "width": 485
+            "width": 423
           },
           {
             "docks": [
@@ -45,7 +45,7 @@
                       "scene"
                     ],
                     "type": "panel",
-                    "width": 668
+                    "width": 792
                   },
                   {
                     "active": 0,
@@ -54,13 +54,13 @@
                       "node-library"
                     ],
                     "type": "panel",
-                    "width": 200
+                    "width": 244
                   }
                 ],
                 "height": 725,
                 "row": true,
                 "type": "dock",
-                "width": 871
+                "width": 1039
               },
               {
                 "active": 1,
@@ -70,13 +70,13 @@
                   "timeline"
                 ],
                 "type": "panel",
-                "width": 871
+                "width": 1039
               }
             ],
             "height": 928,
             "row": false,
             "type": "dock",
-            "width": 871
+            "width": 1039
           },
           {
             "active": 0,
@@ -85,7 +85,7 @@
               "inspector"
             ],
             "type": "panel",
-            "width": 552
+            "width": 446
           }
         ],
         "no-collapse": true,
@@ -93,11 +93,11 @@
         "type": "dock"
       }
     },
-    "window-1468739764087": {
-      "x": 579,
-      "y": 26,
-      "width": 803,
-      "height": 1117
+    "worker": {
+      "x": 760,
+      "y": 370,
+      "width": 400,
+      "height": 300
     }
   }
 }

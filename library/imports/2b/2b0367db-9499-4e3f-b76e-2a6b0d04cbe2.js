@@ -1,12 +1,7 @@
 cc.Class({
     "extends": cc.Component,
 
-    properties: {
-        lifeBar: {
-            type: cc.ProgressBar,
-            "default": null
-        }
-    },
+    properties: {},
 
     //此脚本加载在大地图上,检测碰撞,暂时未作任何操作
 
@@ -18,9 +13,7 @@ cc.Class({
     onCollisionEnter: function onCollisionEnter(other, self) {
 
         //got shot...
-        if (other.tag == 33 && this.lifeBar.progress >= 0) {
-            this.lifeBar.progress -= 0.08;
-        }
+
         //console.log('onCollisionEnter');
     },
 

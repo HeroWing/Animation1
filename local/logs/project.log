@@ -1,101 +1,60 @@
-2016-07-17T03:13:02.317Z - normal: Load ~/.CocosCreator/settings.json
-2016-07-17T03:13:02.333Z - normal: checking language setting...
-2016-07-17T03:13:02.333Z - normal: Language: zh
-2016-07-17T03:13:03.442Z - success: protocol editor-framework registerred
-2016-07-17T03:13:03.442Z - success: protocol app registerred
-2016-07-17T03:13:03.442Z - success: protocol packages registerred
-2016-07-17T03:13:03.442Z - success: protocol unpack registerred
-2016-07-17T03:13:03.630Z - normal: connected!
-2016-07-17T03:13:03.630Z - normal: Check project C:\Users\Leon\Documents\GitHub\Animation1
-2016-07-17T03:13:03.630Z - normal: Initializing Cocos Creator Editor
-2016-07-17T03:13:04.130Z - normal: Initializing Cocos2d
-2016-07-17T03:13:05.598Z - normal: Initializing Asset Database
-2016-07-17T03:13:05.677Z - success: protocol uuid registerred
-2016-07-17T03:13:05.677Z - success: protocol uuid registerred
-2016-07-17T03:13:05.677Z - success: protocol thumbnail registerred
-2016-07-17T03:13:05.677Z - normal: Loading editor/builtin packages
-2016-07-17T03:13:05.973Z - success: assets loaded
-2016-07-17T03:13:05.973Z - success: builder loaded
-2016-07-17T03:13:05.989Z - success: hierarchy loaded
-2016-07-17T03:13:05.989Z - success: inspector loaded
-2016-07-17T03:13:05.989Z - success: keystore loaded
-2016-07-17T03:13:06.005Z - success: node-library loaded
-2016-07-17T03:13:06.005Z - success: preferences loaded
-2016-07-17T03:13:06.052Z - success: project-importer loaded
-2016-07-17T03:13:06.067Z - success: project-settings loaded
-2016-07-17T03:13:06.067Z - success: ui-kit loaded
-2016-07-17T03:13:06.067Z - success: ui-grid loaded
-2016-07-17T03:13:06.083Z - success: scene loaded
-2016-07-17T03:13:06.083Z - success: sprite-editor loaded
-2016-07-17T03:13:06.098Z - success: timeline loaded
-2016-07-17T03:13:06.098Z - success: ui-kit-extra loaded
-2016-07-17T03:13:06.098Z - normal: Loading builtin packages
-2016-07-17T03:13:06.114Z - success: asset-db-debugger loaded
-2016-07-17T03:13:06.114Z - success: code-editor loaded
-2016-07-17T03:13:06.114Z - success: color-picker loaded
-2016-07-17T03:13:06.130Z - success: console loaded
-2016-07-17T03:13:06.130Z - success: package-manager loaded
-2016-07-17T03:13:06.145Z - success: tester loaded
-2016-07-17T03:13:06.145Z - success: ui-tree loaded
-2016-07-17T03:13:06.286Z - normal: Initializing project C:\Users\Leon\Documents\GitHub\Animation1
-2016-07-17T03:13:06.302Z - normal: Loading packages
-2016-07-17T03:13:06.302Z - normal: Run Application
-2016-07-17T03:13:10.327Z - success: preview server running at http://localhost:7456
-2016-07-17T03:13:10.328Z - normal: Compiling scripts...
-2016-07-17T03:13:12.771Z - normal: Compiled successfully
-2016-07-17T03:13:19.429Z - normal: 1.1.1
-2016-07-17T03:14:26.885Z - normal: Compiled successfully
-2016-07-17T03:14:28.450Z - error: TypeError: Cannot read property 'name' of undefined
-    at Object.callback (app://editor/page/ui/node/node.js:1:2912)
-    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:394
-2016-07-17T04:50:34.042Z - normal: Compiled successfully
-2016-07-17T04:51:29.745Z - normal: Compiled successfully
-2016-07-17T04:52:33.608Z - normal: Compiled successfully
-2016-07-17T04:52:42.596Z - normal: Compiled successfully
-2016-07-17T04:52:54.968Z - normal: Compiled successfully
-2016-07-17T04:54:17.952Z - normal: Compiled successfully
-2016-07-17T04:54:26.287Z - normal: Compiled successfully
-2016-07-17T04:55:19.671Z - normal: Compiled successfully
-2016-07-17T04:55:42.364Z - normal: Compiled successfully
-2016-07-17T07:16:46.265Z - normal: Compiled successfully
-2016-07-17T07:20:35.528Z - normal: Compiled successfully
-2016-07-17T07:20:44.474Z - normal: Compiled successfully
-2016-07-17T07:20:47.244Z - normal: Compiled successfully
-2016-07-17T07:20:56.407Z - normal: Compiled successfully
-2016-07-17T07:22:02.399Z - normal: Compiled successfully
-2016-07-17T07:22:06.565Z - normal: Compiled successfully
-2016-07-17T07:22:06.705Z - error: TypeError: Cannot read property 'node' of null
-    at SVG.Element.SVG.invent.extend.parent (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\svg.js\dist\svg.js:1156:19)
-    at SVG.Element.SVG.invent.extend.doc (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\svg.js\dist\svg.js:1163:52)
-    at SVG.extend.filter (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\svg.filter.js\dist\svg.filter.js:130:22)
-    at e._createClass.value (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor\page\gizmos\elements\icon-gizmo.js:1:1651)
-    at e._createClass.value (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor\page\gizmos\elements\gizmo.js:1:1322)
-    at _updateGizmos (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor\page\scene-utils\engine-events.js:1:1198)
-    at Array.forEach (native)
-    at _Class.onPostUpdate (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor\page\scene-utils\engine-events.js:1:1376)
-    at EventListeners.invoke (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\engine\cocos2d\core\event\event-listeners.js:52:29)
-    at _doSendEvent (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\engine\cocos2d\core\event\event-target.js:96:34)
-2016-07-17T07:22:46.923Z - normal: Compiled successfully
-2016-07-17T07:22:55.790Z - normal: Compiled successfully
-2016-07-17T07:22:58.643Z - error: TypeError: Cannot read property 'name' of undefined
-    at app://editor/page/ui/node/node.js:1:2912
-    at EventEmitter.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:5204)
-    at emitThree (events.js:97:13)
-    at EventEmitter.emit (events.js:175:7)
-2016-07-17T07:25:15.576Z - normal: Compiled successfully
-2016-07-17T07:25:18.363Z - error: TypeError: Cannot read property 'name' of undefined
-    at app://editor/page/ui/node/node.js:1:2912
-    at EventEmitter.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:5204)
-    at emitThree (events.js:97:13)
-    at EventEmitter.emit (events.js:175:7)
-2016-07-17T07:26:02.409Z - normal: Compiled successfully
-2016-07-17T07:26:04.796Z - error: TypeError: Cannot read property 'name' of undefined
-    at app://editor/page/ui/node/node.js:1:2912
-    at EventEmitter.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:5204)
-    at emitThree (events.js:97:13)
-    at EventEmitter.emit (events.js:175:7)
-2016-07-17T12:35:32.232Z - error: Window "main" unresponsive: [object Object]
-    at BrowserWindow.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor-framework\lib\main\window.js:1:3113)
-    at emitOne (events.js:77:13)
-    at BrowserWindow.emit (events.js:169:7)
-2016-07-17T12:35:32.815Z - info: shutdown preview server
+2016-07-25T07:13:50.654Z - normal: Load ~/.CocosCreator/settings.json
+2016-07-25T07:13:50.670Z - normal: checking language setting...
+2016-07-25T07:13:50.670Z - normal: Language: zh
+2016-07-25T07:13:51.795Z - success: protocol editor-framework registerred
+2016-07-25T07:13:51.795Z - success: protocol app registerred
+2016-07-25T07:13:51.795Z - success: protocol packages registerred
+2016-07-25T07:13:51.795Z - success: protocol unpack registerred
+2016-07-25T07:13:51.967Z - normal: connected!
+2016-07-25T07:13:51.967Z - normal: Check project C:\Users\Leon\Documents\GitHub\Animation1
+2016-07-25T07:13:51.982Z - normal: Initializing Cocos Creator Editor
+2016-07-25T07:13:52.467Z - normal: Initializing Cocos2d
+2016-07-25T07:13:53.889Z - normal: Initializing Asset Database
+2016-07-25T07:13:53.967Z - success: protocol uuid registerred
+2016-07-25T07:13:53.967Z - success: protocol uuid registerred
+2016-07-25T07:13:53.967Z - success: protocol thumbnail registerred
+2016-07-25T07:13:53.967Z - normal: Loading editor/builtin packages
+2016-07-25T07:13:54.248Z - success: assets loaded
+2016-07-25T07:13:54.248Z - success: builder loaded
+2016-07-25T07:13:54.264Z - success: hierarchy loaded
+2016-07-25T07:13:54.264Z - success: inspector loaded
+2016-07-25T07:13:54.279Z - success: keystore loaded
+2016-07-25T07:13:54.279Z - success: node-library loaded
+2016-07-25T07:13:54.295Z - success: preferences loaded
+2016-07-25T07:13:54.326Z - success: project-importer loaded
+2016-07-25T07:13:54.326Z - success: project-settings loaded
+2016-07-25T07:13:54.326Z - success: ui-kit loaded
+2016-07-25T07:13:54.342Z - success: ui-grid loaded
+2016-07-25T07:13:54.342Z - success: scene loaded
+2016-07-25T07:13:54.357Z - success: sprite-editor loaded
+2016-07-25T07:13:54.357Z - success: timeline loaded
+2016-07-25T07:13:54.373Z - success: ui-kit-extra loaded
+2016-07-25T07:13:54.373Z - normal: Loading builtin packages
+2016-07-25T07:13:54.373Z - success: asset-db-debugger loaded
+2016-07-25T07:13:54.373Z - success: code-editor loaded
+2016-07-25T07:13:54.373Z - success: color-picker loaded
+2016-07-25T07:13:54.389Z - success: console loaded
+2016-07-25T07:13:54.389Z - success: package-manager loaded
+2016-07-25T07:13:54.404Z - success: tester loaded
+2016-07-25T07:13:54.404Z - success: ui-tree loaded
+2016-07-25T07:13:54.529Z - normal: Initializing project C:\Users\Leon\Documents\GitHub\Animation1
+2016-07-25T07:13:54.545Z - normal: Loading packages
+2016-07-25T07:13:54.545Z - normal: Run Application
+2016-07-25T07:13:58.389Z - success: preview server running at http://localhost:7456
+2016-07-25T07:13:58.389Z - normal: Compiling scripts...
+2016-07-25T07:14:00.749Z - normal: Compiled successfully
+2016-07-25T07:14:07.333Z - normal: 1.1.1
+2016-07-25T07:39:29.289Z - normal: Compiled successfully
+2016-07-25T07:42:27.593Z - normal: Compiled successfully
+2016-07-25T07:43:08.009Z - normal: Compiled successfully
+2016-07-25T07:43:21.364Z - normal: Compiled successfully
+2016-07-25T07:43:40.445Z - normal: Compiled successfully
+2016-07-25T07:45:10.264Z - normal: Compiled successfully
+2016-07-25T07:48:39.943Z - normal: Compiled successfully
+2016-07-25T07:48:47.545Z - normal: Compiled successfully
+2016-07-25T07:49:19.071Z - normal: Compiled successfully
+2016-07-25T07:49:25.398Z - normal: Compiled successfully
+2016-07-25T07:49:50.890Z - normal: Compiled successfully
+2016-07-25T07:50:01.974Z - normal: Compiled successfully
+2016-07-25T07:56:41.358Z - normal: Compiled successfully
+2016-07-25T08:09:29.775Z - normal: Compiled successfully

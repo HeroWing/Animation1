@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "castle",
+    "texture": "7e0300d1-a5b2-4c40-969e-383cf0cd3568",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      169,
+      115
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      169,
+      115
+    ]
+  }
+}

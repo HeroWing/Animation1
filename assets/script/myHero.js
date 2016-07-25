@@ -135,6 +135,11 @@ cc.Class({
       }
     },
 
+   //动画完成后的回调
+   OnAnimitionEnd: function(){
+       
+       console.log('OnAnimitionEnd');
+   },
     
     update: function (dt) {
  /*       

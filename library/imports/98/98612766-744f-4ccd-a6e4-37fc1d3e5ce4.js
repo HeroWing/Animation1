@@ -1,13 +1,12 @@
-"use strict";
-cc._RFpush(module, '2b036fblJlOP7duKmsNBMvi', 'ColliderListener');
-// script\ColliderListener.js
-
 cc.Class({
     "extends": cc.Component,
 
-    properties: {},
-
-    //此脚本加载在大地图上,检测碰撞,暂时未作任何操作
+    properties: {
+        lifeBar: {
+            type: cc.ProgressBar,
+            "default": null
+        }
+    },
 
     // use this for initialization
     onLoad: function onLoad() {
@@ -17,6 +16,13 @@ cc.Class({
     onCollisionEnter: function onCollisionEnter(other, self) {
 
         //got shot...
+        if (other.tag == 33 && this.lifeBar.progress >= 0) {
+            this.lifeBar.progress -= 0.18;
+
+            if (this.lifeBar.progress <= 0) {
+                this.node.destroy();
+            }
+        }
 
         //console.log('onCollisionEnter');
     },
@@ -28,11 +34,8 @@ cc.Class({
     onCollisionExit: function onCollisionExit(other, self) {
         //console.log('onCollisionExit');
     }
-
 });
 // called every frame, uncomment this function to activate update callback
 // update: function (dt) {
 
 // },
-
-cc._RFpop();

@@ -131,6 +131,12 @@ cc.Class({
     }
   },
 
+  //动画完成后的回调
+  OnAnimitionEnd: function OnAnimitionEnd() {
+
+    console.log('OnAnimitionEnd');
+  },
+
   update: function update(dt) {
     /*       
            if (!this.collision){
