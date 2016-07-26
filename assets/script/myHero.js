@@ -142,27 +142,143 @@ cc.Class({
    },
     
     update: function (dt) {
- /*       
-        if (!this.collision){
-         if (Math.floor(this.node.x) != Math.floor(this.loc.x)){
-            if (this.loc.x - this.node.x < 0)
-              this.node.x--;
-            else 
-              this.node.x++;
-              
-           // console.log('x=' + this.node.x);
-         }
+       this.checkarea();
+       this.move();
+
+    },
+    
+    checkarea: function () 
+    {   var TL2x=264; //Left up tower
+        var TL2y=880;
+        var TKx=418; //King tower
+        var TKy=884;
+        var TR2x=564; //Right up tower
+        var TR2y=880;
+        var RLx=264; //Left River Bridge
+        var RLy=580;
+        var RRx=564; //Right River Bridge
+        var RRy=580;
+        var TL1x=264; //Left down tower
+        var TL1y=368;
+        var TR1x=564; //Right down tower
+        var TR1y=368;
+        var area=0;
         
-          if (Math.floor(this.node.y) != Math.floor(this.loc.y)){
-            if (this.loc.y - this.node.y < 0)
-              this.node.y--;
-            else 
-              this.node.y++;
-              
-           // console.log('y=' + this.node.y);
+        if(this.node.y<0.22*170+310){
+          if(this.node.x<TKx){
+            area=1;
+          }else{
+            area=7;
+          }
+        }else if(this.node.y<0.22*TKx+310){
+          if(this.node.x<TKx){
+           if(this.node.y<0.22*this.node.x+310){
+             area=1;
+           }else{
+             area=2;
+           }
+          }else{
+            if(this.node.y<-0.22*this.node.x+492){
+              area=7;
+            }else{
+             area=6;
+            }
+          }
+        }else if(this.node.y<RLy){
+          if(this.node.x<TKx){
+            area=2;
+          }else{
+            area=6;
+          }
+        }else if(this.node.y<TKx+316){
+          if(this.node.x<TKx){
+            area=3;
+          }else{
+            area=5;
           }
         }
-        */
+        else if(this.node.y<TKy){
+          if(this.node.x<TKx){
+           if(this.node.y>-1*this.node.x+1144){
+             area=4;
+           }
+           else{
+             area=3;
+           }
+          }else{
+             if(this.node.y>this.node.x+316){
+               area=4;
+             }
+             else{
+               area=5;
+             }
+          }
+        }else{
+          area=0;
+        }
+        
+       //console.log('area=' + this.area);
+       if(area==1)
+       {
+           this.loc.x=TL1x;
+           this.loc.y=TL1y;
+       }
+       else if(area==2)
+       {
+           this.loc.x=RLx;
+           this.loc.y=RLy;
+       }
+       else if(area==3)
+       {
+           this.loc.x=TL2x;
+           this.loc.y=TL2y;
+       }
+       else if(area==4)
+       {
+           this.loc.x=TKx;
+           this.loc.y=TKy;
+       }
+       else if(area==5)
+       {
+           this.loc.x=TR2x;
+           this.loc.y=TR2y;
+       }
+       else if(area==6)
+       {
+           this.loc.x=RRx;
+           this.loc.y=RRy;
+       }
+       else if(area==7)
+       {
+           this.loc.x=TR1x;
+           this.loc.y=TR1y;
+       }
+
+    },
+        
+    move: function () 
+    {
+        if (!this.reachedTarget){
+
+           if (Math.floor(this.node.x) != Math.floor(this.loc.x)){
+             if (this.loc.x - this.node.x < 0){
+               this.node.x--;
+             }else{ 
+               this.node.x++;
+             }
+            // console.log('x=' + this.node.x);
+           }
+           
+           if (Math.floor(this.node.y) != Math.floor(this.loc.y)){
+             if (this.loc.y - this.node.y < 0){
+               this.node.y--;
+             }
+             else{ 
+               this.node.y++;
+             }
+            // console.log('y=' + this.node.y);
+		   }
+	    }
     },
 
 });
