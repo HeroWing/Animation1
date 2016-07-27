@@ -6,22 +6,42 @@ cc.Class({
     'extends': cc.Component,
 
     properties: {
-        speed: 100,
+        speed: 300,
+
+        dest: cc.v2(0, 0),
 
         hero: {
             'default': null,
             type: cc.Node
+        },
+
+        arrow_hit: {
+            'default': null,
+            url: cc.AudioClip
         }
+
+    },
+
+    fireToDest: function fireToDest(d) {
+        this.dest = d;
+
+        var destance = Math.sqrt((d.x - this.node.position.x) * (d.x - this.node.position.x) + (d.y - this.node.position.y) * (d.y - this.node.position.y));
+        this.node.runAction(cc.moveTo(destance / this.speed, d));
     },
 
     // use this for initialization
     onLoad: function onLoad() {},
 
-    //自带碰到敌方建筑，销毁并开火（待改进）
+    //子弹碰到敌方建筑，销毁并开火（待改进）
     onCollisionEnter: function onCollisionEnter(other, self) {
         if (other.tag == 1 || other.tag == 2 || other.tag == 3 || other.tag == 4) {
-            this.hero.getComponent('myHero').refire();
+            cc.audioEngine.playEffect(this.arrow_hit, false);
             this.node.destroy();
+
+            //不是打到墙。。。
+            if (other.tag != 4) {
+                this.hero.getComponent('myHero').refire();
+            }
         }
     },
 
@@ -36,7 +56,8 @@ cc.Class({
     // called every frame, uncomment this function to activate update callback
     //子弹发射（待改进）
     update: function update(dt) {
-        this.node.y += this.speed * dt;
+
+        //this.node.y += this.speed * dt * this.k;
     }
 });
 

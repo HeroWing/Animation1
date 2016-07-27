@@ -12,6 +12,7 @@ cc.Class({
     // use this for initialization
     onLoad: function onLoad() {
         cc.director.getCollisionManager().enabled = true;
+        cc.director.getCollisionManager().enabledDebugDraw = true;
     },
 
     onCollisionEnter: function onCollisionEnter(other, self) {

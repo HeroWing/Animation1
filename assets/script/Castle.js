@@ -6,6 +6,11 @@ cc.Class({
             type: cc.ProgressBar,
             default: null
         },
+        
+        explosion: {
+        default: null,
+        url: cc.AudioClip
+        },
     },
 
     // use this for initialization
@@ -19,9 +24,9 @@ cc.Class({
         
         //got shot...
         if (other.tag == 33 && this.lifeBar.progress >= 0){
-           this.lifeBar.progress -= 0.18;   
-           
+           this.lifeBar.progress -= 0.18;
            if (this.lifeBar.progress <= 0){
+               cc.audioEngine.playEffect(this.explosion, false);
                this.node.destroy();
            }
         }

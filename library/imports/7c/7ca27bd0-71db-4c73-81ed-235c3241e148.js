@@ -6,6 +6,8 @@ cc.Class({
     AnimName: '',
 
     loc: cc.v2(0, 0),
+    startLoc: cc.v2(0, 0),
+    destLoc: cc.v2(0, 0),
 
     collision: false,
 
@@ -14,9 +16,17 @@ cc.Class({
     bullet: {
       'default': null,
       type: cc.Node
+    },
+
+    firedBullet: {
+      'default': null,
+      type: cc.Node
     }
 
   },
+
+  //斜率
+  //k: 0,
 
   changeDirection: function changeDirection(dir) {
     this.getComponent(cc.Animation).play(this.AnimName + dir);
@@ -39,20 +49,22 @@ cc.Class({
   },
 
   //开火，动态生成子弹
-  fire: function fire(loc) {
+  fire: function fire() {
     var scene = cc.director.getScene();
-    var touchLoc = loc;
-    var bullet = cc.instantiate(this.bullet);
+    //var touchLoc = loc;
+    this.firedBullet = cc.instantiate(this.bullet);
     //bullet.hero = this;
-    bullet.position = touchLoc;
-    bullet.active = true;
-    scene.addChild(bullet);
+    this.firedBullet.position = this.startLoc;
+    this.firedBullet.active = true;
+    scene.addChild(this.firedBullet);
+
+    this.firedBullet.getComponent('bullet').fireToDest(this.destLoc);
   },
 
   refire: function refire() {
     if (this.reachedTarget) {
-      var stopLoc = cc.v2(this.node.x, this.node.y);
-      this.fire(stopLoc);
+      //var stopLoc = cc.v2(this.node.x, this.node.y);
+      this.fire();
     }
   },
 
@@ -68,8 +80,17 @@ cc.Class({
     //tag 22为攻击范围检测，1,2,3代表敌方建筑,满足开火条件
     if (self.tag == 22 && (other.tag == 1 || other.tag == 2 || other.tag == 3)) {
       this.reachedTarget = true;
-      var stopLoc = cc.v2(this.node.x, this.node.y);
-      this.fire(stopLoc);
+      this.startLoc = cc.v2(this.node.x, this.node.y);
+      this.destLoc = cc.v2(other.world.aabb.x + other.world.aabb.width / 2, cc.director.getWinSizeInPixels().height);
+      //console.log(other.world.aabb.x + ' ' + other.world.aabb.y);
+      //console.log(self.world.aabb.x + ' ' + self.world.aabb.y);
+
+      //计算两点的斜率
+      //if(other.world.aabb.x != self.world.aabb.x){
+      //   this.k = (other.world.aabb.y - self.world.aabb.y)/(other.world.aabb.x - self.world.aabb.x);
+      //}  
+
+      this.fire();
     }
   },
 
@@ -130,7 +151,7 @@ cc.Class({
   //动画完成后的回调
   OnAnimitionEnd: function OnAnimitionEnd() {
 
-    console.log('OnAnimitionEnd');
+    // console.log('OnAnimitionEnd');
   },
 
   update: function update(dt) {

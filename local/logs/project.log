@@ -1,71 +1,75 @@
-2016-07-26T03:50:07.809Z - normal: Load ~/.CocosCreator/settings.json
-2016-07-26T03:50:07.818Z - normal: checking language setting...
-2016-07-26T03:50:07.818Z - normal: Language: zh
-2016-07-26T03:50:08.967Z - success: protocol editor-framework registerred
-2016-07-26T03:50:08.968Z - success: protocol app registerred
-2016-07-26T03:50:08.968Z - success: protocol packages registerred
-2016-07-26T03:50:08.968Z - success: protocol unpack registerred
-2016-07-26T03:50:09.133Z - normal: connected!
-2016-07-26T03:50:09.135Z - normal: Check project C:\Users\Leon\Documents\GitHub\Animation1
-2016-07-26T03:50:09.141Z - normal: Initializing Cocos Creator Editor
-2016-07-26T03:50:09.669Z - normal: Initializing Cocos2d
-2016-07-26T03:50:11.209Z - normal: Initializing Asset Database
-2016-07-26T03:50:11.313Z - success: protocol uuid registerred
-2016-07-26T03:50:11.313Z - success: protocol uuid registerred
-2016-07-26T03:50:11.313Z - success: protocol thumbnail registerred
-2016-07-26T03:50:11.313Z - normal: Loading editor/builtin packages
-2016-07-26T03:50:11.616Z - success: assets loaded
-2016-07-26T03:50:11.624Z - success: builder loaded
-2016-07-26T03:50:11.634Z - success: hierarchy loaded
-2016-07-26T03:50:11.643Z - success: inspector loaded
-2016-07-26T03:50:11.646Z - success: keystore loaded
-2016-07-26T03:50:11.654Z - success: node-library loaded
-2016-07-26T03:50:11.661Z - success: preferences loaded
-2016-07-26T03:50:11.702Z - success: project-importer loaded
-2016-07-26T03:50:11.706Z - success: project-settings loaded
-2016-07-26T03:50:11.710Z - success: ui-kit loaded
-2016-07-26T03:50:11.716Z - success: ui-grid loaded
-2016-07-26T03:50:11.727Z - success: scene loaded
-2016-07-26T03:50:11.730Z - success: sprite-editor loaded
-2016-07-26T03:50:11.746Z - success: timeline loaded
-2016-07-26T03:50:11.749Z - success: ui-kit-extra loaded
-2016-07-26T03:50:11.750Z - normal: Loading builtin packages
-2016-07-26T03:50:11.756Z - success: asset-db-debugger loaded
-2016-07-26T03:50:11.759Z - success: code-editor loaded
-2016-07-26T03:50:11.760Z - success: color-picker loaded
-2016-07-26T03:50:11.772Z - success: console loaded
-2016-07-26T03:50:11.777Z - success: package-manager loaded
-2016-07-26T03:50:11.787Z - success: tester loaded
-2016-07-26T03:50:11.790Z - success: ui-tree loaded
-2016-07-26T03:50:11.933Z - normal: Initializing project C:\Users\Leon\Documents\GitHub\Animation1
-2016-07-26T03:50:11.949Z - normal: Loading packages
-2016-07-26T03:50:11.955Z - normal: Run Application
-2016-07-26T03:50:16.115Z - success: preview server running at http://localhost:7456
-2016-07-26T03:50:16.115Z - normal: Compiling scripts...
-2016-07-26T03:50:18.660Z - normal: Compiled successfully
-2016-07-26T03:50:25.765Z - normal: 1.1.1
-2016-07-26T03:53:45.739Z - normal: Compiled successfully
-2016-07-26T03:57:36.922Z - normal: Compiled successfully
-2016-07-26T04:00:06.543Z - normal: Compiled successfully
-2016-07-26T04:06:12.667Z - normal: Compiled successfully
-2016-07-26T04:07:06.692Z - failed: [db-task][update] failed!
-2016-07-26T04:07:06.694Z - error: Failed to update asset db://assets/script/myHero.js, messages: SyntaxError: unknown: Unexpected token (298:5)
-      
-      }
+2016-07-27T10:19:58.770Z - normal: Load ~/.CocosCreator/settings.json
+2016-07-27T10:19:58.783Z - normal: checking language setting...
+2016-07-27T10:19:58.784Z - normal: Language: zh
+2016-07-27T10:19:59.921Z - success: protocol editor-framework registerred
+2016-07-27T10:19:59.921Z - success: protocol app registerred
+2016-07-27T10:19:59.921Z - success: protocol packages registerred
+2016-07-27T10:19:59.921Z - success: protocol unpack registerred
+2016-07-27T10:20:00.126Z - normal: connected!
+2016-07-27T10:20:00.128Z - normal: Check project C:\Users\Leon\Documents\GitHub\Animation1
+2016-07-27T10:20:00.134Z - normal: Initializing Cocos Creator Editor
+2016-07-27T10:20:00.581Z - normal: Initializing Cocos2d
+2016-07-27T10:20:01.820Z - normal: Initializing Asset Database
+2016-07-27T10:20:01.888Z - success: protocol uuid registerred
+2016-07-27T10:20:01.888Z - success: protocol uuid registerred
+2016-07-27T10:20:01.889Z - success: protocol thumbnail registerred
+2016-07-27T10:20:01.889Z - normal: Loading editor/builtin packages
+2016-07-27T10:20:02.150Z - success: assets loaded
+2016-07-27T10:20:02.155Z - success: builder loaded
+2016-07-27T10:20:02.165Z - success: hierarchy loaded
+2016-07-27T10:20:02.174Z - success: inspector loaded
+2016-07-27T10:20:02.177Z - success: keystore loaded
+2016-07-27T10:20:02.186Z - success: node-library loaded
+2016-07-27T10:20:02.192Z - success: preferences loaded
+2016-07-27T10:20:02.237Z - success: project-importer loaded
+2016-07-27T10:20:02.241Z - success: project-settings loaded
+2016-07-27T10:20:02.247Z - success: ui-kit loaded
+2016-07-27T10:20:02.250Z - success: ui-grid loaded
+2016-07-27T10:20:02.262Z - success: scene loaded
+2016-07-27T10:20:02.265Z - success: sprite-editor loaded
+2016-07-27T10:20:02.280Z - success: timeline loaded
+2016-07-27T10:20:02.284Z - success: ui-kit-extra loaded
+2016-07-27T10:20:02.284Z - normal: Loading builtin packages
+2016-07-27T10:20:02.290Z - success: asset-db-debugger loaded
+2016-07-27T10:20:02.293Z - success: code-editor loaded
+2016-07-27T10:20:02.295Z - success: color-picker loaded
+2016-07-27T10:20:02.302Z - success: console loaded
+2016-07-27T10:20:02.307Z - success: package-manager loaded
+2016-07-27T10:20:02.316Z - success: tester loaded
+2016-07-27T10:20:02.320Z - success: ui-tree loaded
+2016-07-27T10:20:02.450Z - normal: Initializing project C:\Users\Leon\Documents\GitHub\Animation1
+2016-07-27T10:20:02.465Z - normal: Loading packages
+2016-07-27T10:20:02.472Z - normal: Run Application
+2016-07-27T10:20:06.196Z - success: preview server running at http://localhost:7456
+2016-07-27T10:20:06.197Z - normal: Compiling scripts...
+2016-07-27T10:20:08.633Z - normal: Compiled successfully
+2016-07-27T10:20:15.103Z - normal: 1.1.1
+2016-07-27T10:22:52.324Z - normal: Compiled successfully
+2016-07-27T10:24:11.802Z - normal: Compiled successfully
+2016-07-27T10:25:34.973Z - normal: Compiled successfully
+2016-07-27T10:29:30.281Z - normal: Compiled successfully
+2016-07-27T10:29:42.639Z - normal: Compiled successfully
+2016-07-27T10:35:49.655Z - normal: Compiled successfully
+2016-07-27T10:38:40.223Z - normal: Compiled successfully
+2016-07-27T10:39:01.395Z - normal: Compiled successfully
+2016-07-27T10:42:38.842Z - failed: [db-task][update] failed!
+2016-07-27T10:42:38.844Z - error: Failed to update asset db://assets/script/bullet.js, messages: SyntaxError: unknown: Unexpected token (26:92)
+        
+        var destance = Math.sqrt((d.x - this.node.position.x) * (d.x - this.node.position.x) +
+                                  (d.y - this.node.position.y) * d.y - this.node.position.y))
+        this.node.runAction(cc.moveTo(1,d));
     },
-
-});
 
     at Parser.pp.raise (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\location.js:24:13)
     at Parser.pp.unexpected (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:82:8)
-    at Parser.pp.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:425:12)
-    at Parser.parseExprAtom (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\plugins\jsx\index.js:412:22)
-    at Parser.pp.parseExprSubscripts (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:236:19)
-    at Parser.pp.parseMaybeUnary (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:217:19)
-    at Parser.pp.parseExprOps (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:163:19)
-    at Parser.pp.parseMaybeConditional (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:145:19)
-    at Parser.pp.parseMaybeAssign (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:112:19)
-    at Parser.pp.parseExpression (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:79:19)
+    at Parser.pp.semicolon (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:69:81)
+    at Parser.pp.parseVarStatement (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\statement.js:371:8)
+    at Parser.pp.parseStatement (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\statement.js:99:19)
+    at Parser.parseStatement (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\plugins\flow.js:655:22)
+    at Parser.pp.parseBlock (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\statement.js:442:21)
+    at Parser.pp.parseFunctionBody (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:747:22)
+    at Parser.parseFunctionBody (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\plugins\flow.js:643:20)
+    at Parser.pp.parseFunction (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\statement.js:524:8)
     at s.AssetDB.error (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\utils.js:1:2582)
     at Object.callback (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\core\ipc.js:1:4154)
     at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:906:35
@@ -75,10 +79,44 @@
     at s.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\index.js:1:1393)
     at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\tasks.js:1:17718
     at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:52:16
-2016-07-26T04:08:44.594Z - normal: Compiled successfully
-2016-07-26T04:11:40.591Z - normal: Compiled successfully
-2016-07-26T04:15:45.369Z - normal: Compiled successfully
-2016-07-26T04:16:03.023Z - normal: Compiled successfully
-2016-07-26T04:16:37.464Z - normal: Compiled successfully
-2016-07-26T04:17:54.202Z - normal: Compiled successfully
-2016-07-26T04:35:14.281Z - normal: Compiled successfully
+2016-07-27T10:42:41.138Z - failed: [db-task][update] failed!
+2016-07-27T10:42:41.138Z - error: Failed to update asset db://assets/script/bullet.js, messages: SyntaxError: unknown: Unexpected token (26:92)
+        
+        var destance = Math.sqrt((d.x - this.node.position.x) * (d.x - this.node.position.x) +
+                                  (d.y - this.node.position.y) * d.y - this.node.position.y));
+        this.node.runAction(cc.moveTo(1,d));
+    },
+
+    at Parser.pp.raise (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\location.js:24:13)
+    at Parser.pp.unexpected (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:82:8)
+    at Parser.pp.semicolon (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\util.js:69:81)
+    at Parser.pp.parseVarStatement (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\statement.js:371:8)
+    at Parser.pp.parseStatement (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\statement.js:99:19)
+    at Parser.parseStatement (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\plugins\flow.js:655:22)
+    at Parser.pp.parseBlock (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\statement.js:442:21)
+    at Parser.pp.parseFunctionBody (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\expression.js:747:22)
+    at Parser.parseFunctionBody (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\plugins\flow.js:643:20)
+    at Parser.pp.parseFunction (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\babylon\lib\parser\statement.js:524:8)
+    at s.AssetDB.error (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\utils.js:1:2582)
+    at Object.callback (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\core\ipc.js:1:4154)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:906:35
+    at _arrayEach (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:85:13)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:898:17
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at s.<anonymous> (C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\index.js:1:1393)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\asset-db\lib\tasks.js:1:17718
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\node_modules\async\lib\async.js:52:16
+2016-07-27T10:43:12.538Z - normal: Compiled successfully
+2016-07-27T10:44:09.621Z - normal: Compiled successfully
+2016-07-27T10:45:10.316Z - normal: Compiled successfully
+2016-07-27T10:45:43.012Z - normal: Compiled successfully
+2016-07-27T10:46:35.712Z - normal: Compiled successfully
+2016-07-27T10:50:56.052Z - normal: Compiled successfully
+2016-07-27T10:51:18.088Z - normal: Compiled successfully
+2016-07-27T10:51:59.226Z - normal: Compiled successfully
+2016-07-27T10:52:01.250Z - error: TypeError: Cannot read property 'name' of undefined
+    at Object.callback (app://editor/page/ui/node/node.js:1:2912)
+    at C:\Users\Leon\AppData\Local\CocosCreator\app-1.1.1\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:394
+2016-07-27T10:53:43.461Z - normal: Compiled successfully
+2016-07-27T10:54:33.646Z - normal: Compiled successfully
+2016-07-27T10:57:35.682Z - normal: Compiled successfully
