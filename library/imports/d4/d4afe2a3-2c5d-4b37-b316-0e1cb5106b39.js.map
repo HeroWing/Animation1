@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;AACR,mBAAW,EAAE;AACT,uBAAS,IAAI;AACb,gBAAI,EAAE,EAAE,CAAC,MAAM;SAClB;KACJ;;;AAGD,UAAM,EAAE,kBAAY,EAEnB;;;;;;;AAOD,qBAAiB,EAAE,6BAAW;AAC1B,UAAE,CAAC,WAAW,CAAC,cAAc,EAAE,CAAC;AAChC,UAAE,CAAC,QAAQ,CAAC,SAAS,CAAC,WAAW,CAAC,CAAC;KACtC;CACJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        buttonFight: {\r\n            default: null,\r\n            type: cc.Button\r\n        },\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n\r\n    },\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n    \r\n    onBtnFightClicked: function() {\r\n        cc.audioEngine.stopAllEffects();\r\n        cc.director.loadScene('GameScene');\r\n    },\r\n});\r\n"
+  ]
+}
